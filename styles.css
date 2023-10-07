@@ -1,0 +1,379 @@
+body {
+    background-color: rgb(255, 252, 245);
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    padding: 30px;
+}
+
+.left-side {
+    text-align: left;
+}
+
+.right-side {
+    text-align: right;
+}
+
+h1 {
+    font-size: 80px;
+    margin: 0;
+}
+
+
+p {
+    font-size: 30px;
+    margin: 0;
+}
+
+.image-container {
+    display: flex;
+}
+
+.small-image {
+    width: 280px;
+    height: 350px;
+    margin-right: 10px;
+    background-size: cover;
+    background-position: center;
+}
+
+
+    /* Prontera's Tasty Temptations */
+
+
+.tasty-temptations {
+    background-image: url('images/croissant.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    padding: 30px;
+    position: relative; 
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.header {
+    text-align: center;
+    color: white;
+    font-size: 56px;
+    padding-top: 50px;
+}
+
+.rounded-rectangle {
+    background-color: rgba(132, 56, 26, 0.64);
+    border-radius: 15px;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    width: 80%;
+    max-width: 600px; 
+    margin: 0 auto; 
+    position: relative; 
+    top: 30%;
+    transform: translateY(-50%);
+    height: 200px;
+}
+
+label[for="deliveryDate"] {
+    font-size: 30px;
+    display: block; 
+    margin-top: 40px;
+}
+
+
+.date-input {
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 40px; 
+}
+
+.button {
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    display: block; 
+    margin: 0 auto;
+    margin-top: 150px; 
+}
+
+
+/* SOUTHEAST ASIA */
+
+
+.southeastasia {
+    background-image: url('images/ph.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    padding: 30px;
+    position: relative; 
+}
+
+
+
+label[for="southeastNations"] {
+    font-size: 30px;
+    display: block; 
+    margin: 0 auto;
+    margin-top: 40px;
+    width: fit-content;
+    color: white;
+
+}
+
+
+select#southeastNations {
+    width: 30%;
+    padding: 10px;
+    border: none;
+    display: block;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 40px; 
+
+}
+
+.southeastasia .header {
+    color: rgb(255, 140, 0);
+    padding-top: 150px;
+
+}
+
+.button.book-button {
+  background-color: rgb(255, 140, 0);
+    color: white;
+    border-radius: 20px;
+    
+}
+
+
+/* ONLINE GROCERY */
+
+
+.online-grocery {
+    background-image: url('images/grocery.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    padding: 30px;
+    position: relative; 
+}
+
+.grocery-button {
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    display: block; 
+    margin: 0 auto;
+    margin-top: 150px; 
+}
+
+.grocery-button:hover {
+    background-color: rgb(255, 120, 0); 
+}
+
+
+
+label[for="ingredients"] {
+    font-size: 24px;
+    display: block;
+    margin-bottom: 10px;
+    color: white; 
+}
+
+select#ingredients {
+    width: 50%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    color: black; 
+    height: 150px; 
+}
+
+/* TECHY */
+
+#techy .left-side form {
+  text-align: center;
+}
+
+#techy .right-side form {
+  text-align: center;
+}
+
+
+.techy{
+    background-image: url('images/techy.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 50vh;
+    padding: 30px;
+    position: relative; 
+}
+
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+input[type="file"] {
+  margin-top: 10px;
+}
+
+label[for="isAdmin"] {
+    font-size: 35px;
+    display: block;
+    margin-bottom: 10px;
+    color: white; 
+}
+
+
+
+#admin-form {
+  text-align: center;
+  margin: 20px auto; 
+  max-width: 300px; 
+  padding: 20px;
+  background-color: #FF0F7B;
+  border-radius: 10px;
+}
+
+#audio-upload-form {
+  text-align: center; 
+  margin: 20px auto; 
+  max-width: 300px; 
+  padding: 20px;
+  background-color: #FF0F7B;
+  border-radius: 10px;
+}
+
+#audio-upload-form label {
+  font-size: 35px;
+  display: block; 
+  margin-bottom: 10px; 
+    color: white;
+}
+
+#audio-upload-form input[type="file"] {
+  padding: 10px;
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+}
+
+#audio-upload-form input[type="submit"] {
+  background-color: rgb(255, 140, 0); 
+  color: white; 
+  padding: 10px 20px; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+}
+
+/* Optional: Add hover effect to the button */
+#audio-upload-form input[type="submit"]:hover {
+  background-color: #ff8000; 
+}
+
+#techy .overlay {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  gap: 20px; 
+}
+
+/* CLASS SCHED */
+
+.classsched {
+    background-image: url('images/blackboard.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 200vh;
+    padding: 30px;
+    position: relative; 
+}
+
+    table {
+      width: 80%;
+      border-collapse: collapse;
+      margin: 0 auto;
+      margin-top: 40px;
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: center;
+      color: white; /* Make text color white */
+    }
+
+    th {
+      background-color: #333;
+      color: white;
+    }
+
+.rdbmstd {
+  background-color: #A1BA89;
+  color: black;
+}
+
+.eventtd {
+  background-color: #D9D2B6;
+  color: black;
+}
+
+.projtd {
+  background-color: #f2f6d0;
+  color: black;
+}
+
+.networktd {
+  background-color: #e4be9e;
+  color: black;
+}
+
+.webtd {
+  background-color: #d0e1d4;
+  color: black;
+}
+
+
+
+

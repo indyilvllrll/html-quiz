@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>JHONNA LIE VILLARUEL</title>
+</head>
+<body>
+    <header>
+        <a href="#container" class="nav-items">Jhonna Lie</a>
+        <a href="#tasty-temptations" class="nav-items">Prontera's Tasty Temptations</a>
+        <a href="#southeastasia" class="nav-items">SouthEast Asia</a>
+        <a href="#online-grocery" class="nav-items">Online Grocery</a>
+        <a href="#techy" class="nav-items">Administrator</a>
+        <a href="#techy" class="nav-items">Upload Files</a>
+        <a href="#classsched" class="nav-items">Class Schedule</a>
+        <a href="https://www.canva.com/design/DAFvMHqYSTc/NRvwfnYg_GHZQUCVj1h8Gw/edit?utm_content=DAFvMHqYSTc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank">Canva Design</a>
+
+
+
+        
+        
+    </header>
+
+    <main>
+        <section class="container" id="container">
+            <div class="left-side">
+                <h1>JHONNA LIE<br>VILLARUEL.</h1>
+                <p>HTML . CSS .</p>
+            </div>
+            <div class="right-side">
+                <div class="image-container">
+                    <div class="small-image" style="background-image: url('images/w1.jpg');"></div>
+                    <div class="small-image" style="background-image: url('images/w2.jpg');"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="tasty-temptations" id="tasty-temptations">
+            <div class="overlay">
+                <div class="header">Prontera's Tasty Temptations</div>
+
+                <div class="rounded-rectangle">
+                    <form id="date" action="#" method="get">
+                        <label for="deliveryDate">Select Date for Delivery:</label>
+                        <!-- Input field for date selection -->
+                        <input class="date-input" type="date" id="deliveryDate" name="deliveryDate" min="2023-10-05">
+                        <!-- Submit button for the form -->
+                        <button class="button" type="submit">Dine with us</button>
+                    </form>
+
+                </div>
+            </div>
+        </section>
+        
+        <section class="southeastasia" id="southeastasia">
+            <div class="overlay">
+                <div class="header">ASIA QUEST EXPEDITIONS</div>
+                
+                <form action="#" method="get">
+                  <label for="southeastNations">Select a Southeast Asian Nation:</label>
+                  <select id="southeastNations" name="southeastNations">
+                    <option value="Burma">Burma</option>
+                    <option value="Brunei">Brunei</option>
+                    <option value="Cambodia">Cambodia</option>
+                    <option value="Indonesia">Indonesia</option>
+                    <option value="Laos">Laos</option>
+                    <option value="Malaysia">Malaysia</option>
+                    <option value="Philippines" selected>Philippines</option>
+                    <option value="Singapore">Singapore</option>
+                    <option value="Thailand">Thailand</option>
+                    <option value="Timor-Leste">Timor-Leste</option>
+                    <option value="Vietnam">Vietnam</option>
+                  </select>
+                    <button class="button book-button" type="submit">Book Now</button>
+                </form>
+
+            </div>
+        </section>
+        
+        <section class="online-grocery" id="online-grocery">
+            <div class="overlay">
+                <div class="header">ONLINE GROCERY</div>
+
+                <div class="rounded-rectangle">
+                    <form action="#" method="get">
+                      <label for="ingredients">Select Ingredients:</label>
+                      <select id="ingredients" name="ingredients" multiple>
+                        <option value="Fresh Celery">Fresh Celery</option>
+                        <option value="Skim Milk">Skim Milk</option>
+                        <option value="Turkey Celery">Turkey Celery</option>
+                        <option value="Butter">Butter</option>
+                        <option value="Carrots">Carrots</option>
+                        <option value="Onion">Onion</option>
+                      </select>
+                      <button class="grocery-button" type="submit">ORDER NOW</button>
+                    </form>
+
+                </div>
+            </div>
+        </section>
+        
+
+        <section class="techy" id="techy">
+            
+            <div class="overlay">
+
+                    <form id="admin-form" action="#" method="get">
+                      <label for="isAdmin">Are you an administrator?</label>
+                      <input type="checkbox" id="isAdmin" name="isAdmin" value="yes">
+                      <input type="submit" value="Submit">
+                    </form>
+
+                    <form id="audio-upload-form" action="#" method="get" enctype="multipart/form-data">
+                      <label for="audioFiles">Upload Audio Files:</label>
+                      <input type="file" id="audioFiles" name="audioFiles" multiple accept=".mp3, .wav, .ogg, .m4a">
+                      <input type="submit" value="Submit">
+                    </form>
+                
+            </div>
+
+        </section>
+        
+        
+        <section class="classsched" id="classsched">
+            <div class="overlay">
+                <div class="header">CLASS SCHEDULE</div>
+
+    <table> 
+   <tbody>
+    <tr>
+ 
+            <tr> 
+             <th rowspan="2">Time</th> 
+             <th colspan="6">Day of the Week</th> 
+            </tr> 
+
+            <tr> 
+             <th>Mon</th> 
+             <th>Tue</th> 
+             <th>Wed</th> 
+             <th>Thu</th> 
+             <th>Fri</th> 
+             <th>Sat</th> 
+            </tr> 
+
+            <tr> 
+             <td>7:00 - 7:30</td> 
+             <td></td> 
+             <td></td> 
+             <td></td> 
+             <td rowspan="10" class="projtd">PROJECT MGMT</td> 
+             <td></td> 
+             <td rowspan="6" class="rdbmstd">RDBMS</td> 
+            </tr> 
+
+            <tr> 
+             <td>7:30 - 8:00</td> 
+             <td ></td> 
+             <td></td> 
+             <td></td> 
+             <td></td> 
+            </tr>     
+
+             <tr> 
+             <td>8:00 - 8:30</td> 
+             <td></td> 
+             <td></td> 
+             <td></td> 
+             <td></td>
+            </tr>   
+
+             <tr> 
+             <td>8:30 - 9:00</td> 
+             <td></td> 
+             <td></td> 
+             <td></td> 
+             <td></td> 
+            </tr>    
+
+             <tr> 
+             <td>9:00 - 9:30</td> 
+             <td></td> 
+             <td></td> 
+             <td rowspan="6" class="networktd" >NETWORK MGMT</td> 
+             <td></td> 
+
+            </tr>    
+
+             <tr> 
+             <td>9:30 - 10:00</td> 
+             <td></td> 
+             <td></td> 
+             <td ></td> 
+
+            </tr>           
+
+             <tr> 
+             <td>10:00 - 10:30</td> 
+             <td></td> 
+             <td rowspan="4" class="networktd" >NETWORK MGMT</td> 
+             <td></td> 
+             <td rowspan="6" class="eventtd">EVENT DRIVEN</td> 
+            </tr>           
+
+             <tr> 
+             <td>10:30 - 11:00</td> 
+             <td></td> 
+             <td></td> 
+            </tr>    
+
+             <tr> 
+             <td>11:00 - 11:30</td> 
+             <td></td> 
+             <td></td> 
+
+            </tr>    
+
+             <tr> 
+             <td>11:30 - 12:00</td> 
+             <td></td> 
+             <td></td> 
+
+
+            </tr>           
+
+             <tr> 
+             <td >12:00 - 12:30</td> 
+             <td rowspan="4" class="rdbmstd">RDBMS</td> 
+             <td></td> 
+             <td></td> 
+             <td></td> 
+             <td></td>
+            </tr>         
+
+             <tr> 
+             <td>12:30 - 13:00</td> 
+             <td></td> 
+             <td></td> 
+             <td></td> 
+             <td></td> 
+            </tr>         
+
+             <tr> 
+             <td>13:00 - 13:30</td> 
+             <td></td> 
+             <td></td> 
+             <td></td> 
+             <td></td> 
+             <td rowspan="5" class="webtd">WEBDEV</td>
+            </tr>       
+
+             <tr> 
+             <td>13:30 - 14:00</td> 
+             <td></td> 
+             <td></td> 
+             <td></td> 
+             <td></td> 
+            </tr>
+
+            <tr>
+              <td>14:00 - 14:30</td>
+              <td rowspan="4" class="eventtd">EVENT DRIVEN</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>14:30 - 15:00</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>15:00 - 15:30</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>15:30 - 16:00</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>16:00 - 16:30</td>
+              <td rowspan="4" class="webtd">WEBDEV</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>16:30 - 17:00</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>17:00 - 17:30</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>17:30 - 18:00</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>18:00 - 18:30</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>18:30 - 19:00</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>      
+
+           </tbody>
+          </table>
+
+            </div>
+        </section>
+        
+    </main>
+</body>
+</html>
